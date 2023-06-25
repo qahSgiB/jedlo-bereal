@@ -1,0 +1,14 @@
+{
+  "name": "shared",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "exports": {
+    "./schemas": "./src/schemas/index.ts",
+    "./types": "./src/types/index.ts",
+    "./api": "./src/api/index.ts",
+    "./zod": "./src/zod.ts"
+  }
+}

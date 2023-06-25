@@ -1,0 +1,18 @@
+[3]
+
+
+[2]
+* es lint
+
+
+[1]
+prisma disconnect
+
+
+[done]
+unique username
+signup
+move models and schemas to separate node project
+cors load fe port from env maybe
+docker postgres
+env file

@@ -1,0 +1,64 @@
+/*** Fonts ***/
+/* font-family: 'DM Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+:root {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+     
+    /*** Color palette ***/
+    --background-white: #f3f2f3;
+    --background-grey: #d1cece;
+    --primary: #8db9ba;
+    --navigation: #347a7c;
+    --link: rgb(23, 127, 192);
+    --light-mint: #b7d4d0;
+
+    /* Scrollbar hiding Firefox */
+    scrollbar-width: none;  
+}
+/* Scrollbar hiding others */
+:root::-webkit-scrollbar{
+    display: none;  
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+/*** Reusable classes ***/
+.classic-link {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginbot2 {
+    margin-bottom: 2rem;
+}
+.marginbot6 {
+    margin-bottom: 6rem;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.height-125rem {
+    height: 1.25rem;
+}
+
+.width-125rem {
+    width: 1.25rem;
+}

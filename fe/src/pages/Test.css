@@ -1,0 +1,23 @@
+.di__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.di__title {
+    margin-top: 1.5rem;
+
+    font-family: 'Merriweather', serif;
+    font-size: 1.75rem;
+}
+
+.di__graph {
+    margin-top: 1.5rem;
+
+    width: 80%;
+    aspect-ratio: 1 / 1;
+
+    background-color: red;
+}

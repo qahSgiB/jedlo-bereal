@@ -1,0 +1,16 @@
+.table {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Pagination fonts */
+.css-pdct74-MuiTablePagination-selectLabel{
+    font-family: 'DM Sans', sans-serif !important;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+    font-family: 'DM Sans', sans-serif !important;
+}
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+    font-family: 'DM Sans', sans-serif !important;
+}

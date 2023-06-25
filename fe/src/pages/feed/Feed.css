@@ -1,0 +1,107 @@
+.feed-background {
+    width: 100vw;
+    height: 100%;
+    background-color: var(--background-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-navbar {
+    width: 100vw;
+    height: 4rem;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-posts {
+    width: 100vw;
+    height: fit-content;
+}
+
+.feed-appname {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.feed-post {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-post-profile {
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.feed-post-ppic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 1rem 1rem 1rem 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.feed-post-name {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.feed-post-pic {
+    width: 100vw;
+    max-height: 80vh;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+}
+
+.feed-post-added {
+    margin-left: 1rem;
+    font-size: 1rem;
+    /* color: rgb(197, 197, 197); */
+    color: #A8A8A8;
+    /* color: var(--light-mint); */
+}
+
+.feed-footer {
+    margin: 3rem 1rem 3rem 1rem;
+    text-align: center;
+}
+
+.feed-footer-link {
+    text-decoration: none;
+    background-color: inherit;
+    color: var(--link);
+}
+
+.feed-footer-link:hover {
+    cursor: pointer;
+}
+
+@media only screen and (orientation: landscape) {
+    .feed-posts {
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .feed-post {
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feed-post-pic {
+        max-width: 30vw;
+        max-height: 80vh;
+        height: auto;
+        aspect-ratio: attr(width) / attr(height);
+    }
+}

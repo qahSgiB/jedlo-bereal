@@ -1,0 +1,9 @@
+.floating-button {
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+}
+
+.custom-fab {
+    background-color: var(--primary) !important;
+  }

@@ -1,0 +1,18 @@
+
+/* Background of the slide show*/
+.css-rh92k-MuiPaper-root-MuiMobileStepper-root {
+    background-color: var(--background-white) !important;
+}
+
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root {
+    color: var(--navigation) !important;
+}
+
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root:disabled {
+    color: var(--background-grey) !important;
+}
+
+/* Slideshow dot in the middle */
+.css-26w9jf-MuiMobileStepper-dot {
+    background-color: var(--navigation) !important;
+}

@@ -1,0 +1,26 @@
+.main {
+    display: grid;
+    grid-template-rows: minmax(100dvh - 4rem, 1fr);
+
+    width: 100vw;
+    height: 100dvh;
+}
+
+.main__navigation-container {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 4rem;
+    background-color: var(--navigation);
+}
+
+.main__content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    padding-bottom: 4rem;
+}

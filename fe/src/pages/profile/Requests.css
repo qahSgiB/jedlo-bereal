@@ -1,0 +1,99 @@
+.requests-background {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.requests-form {
+    width: 50vw;
+    height: fit-content;
+    margin: 1rem 0 1rem 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.requests-form-text {
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.15rem;
+    text-align: center;
+}
+
+.requests-form-inputbox {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 10px;
+    background-color: var(--primary);
+}
+
+.requests-form-inputbox__errormessage {
+    color: red;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    margin-bottom: -0.5rem;
+}
+
+.requests-form-button {
+    width: 50%;
+    margin: 1rem;
+    padding: 0.2rem;
+    border-radius: 10px;
+    background-color: var(--primary);
+    font-size: 1rem;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.requests-form-button:hover {
+    cursor: pointer;
+}
+
+.requests-person {
+    width: 100vw;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.requests-person-image {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary);
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0 1rem 0 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.requests-person-texts {
+    width: 40vw;
+    min-height: 3.5rem;
+    border-radius: 25px;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+}
+
+.requests-person-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.requests-person-bio {
+    font-size: 0.8rem;
+    font-weight: 400;
+    /* text-align: center; */
+}

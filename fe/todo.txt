@@ -1,0 +1,22 @@
+[3]
+# refresh button for friends, fr
+
+
+[2]
+# login, signup form submit disabled style
+# friend request sent text color
+usage without backend
+
+
+[1]
+* ikonka
+lepsie napisat useDocumentTitle
+
+
+[done]
+loading animation
+login, signup / profile visibility
+login validation error
+zod from shared
+invalid route error
+use env file

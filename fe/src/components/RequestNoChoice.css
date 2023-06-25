@@ -1,0 +1,33 @@
+.requests-nochoice {
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+}
+
+.requests-nochoice-text {
+    width: 2rem;
+    background-color: var(--primary);
+    border-radius: 25px;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    color: rgb(197, 197, 197);
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.requests-nochoice-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: inherit;
+}
+
+.requests-nochoice-image {
+    width: inherit;
+    height: inherit;
+}

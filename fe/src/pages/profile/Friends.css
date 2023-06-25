@@ -1,0 +1,63 @@
+.friends-background {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.friends-person {
+    width: 100vw;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.friends-person-image {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary);
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0 1rem 0 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.friends-person-texts {
+    width: 50vw;
+    min-height: 3.5rem;
+    border-radius: 25px;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+}
+
+.friends-person-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.friends-person-bio {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.friends-person-delete {
+    width: calc(100vw - 50vw - 5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends-person-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: inherit;
+}
+
+.friends-person-ximage {
+    width: inherit;
+    height: inherit ;
+}

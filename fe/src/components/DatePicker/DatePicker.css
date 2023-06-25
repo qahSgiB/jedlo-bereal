@@ -1,0 +1,22 @@
+.datePicker {
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+.datePicker .date-picker-item {
+    flex: 1;
+}
+
+.datePicker input {
+    /* margin: 0.3rem 0; */
+    /* text-align: right; */
+    font-family: 'DM Sans', sans-serif;
+    width: 90%;
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin-right: 2%;
+}

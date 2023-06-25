@@ -1,0 +1,19 @@
+.requests-choice {
+    width: 5rem;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requests-choice-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: inherit;
+}
+
+.requests-choice-image {
+    width: inherit;
+    height: inherit;
+}
+

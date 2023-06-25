@@ -1,0 +1,23 @@
+name: web-proktik
+
+services:
+  db:
+    container_name: web-proktik-db
+    image: postgres:alpine
+    environment:
+      POSTGRES_USER: web-proktik
+      POSTGRES_DATABASE: web-proktik
+      POSTGRES_PASSWORD_FILE: /run/secrets/db_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - web-proktik-db-data:/var/lib/postgresql/data
+    secrets:
+      - db_password
+
+volumes:
+  web-proktik-db-data:
+
+secrets:
+  db_password:
+      file: db_password.txt

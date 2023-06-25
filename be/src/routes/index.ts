@@ -1,0 +1,6 @@
+export { default as authRouter } from './auth'
+export { default as foodpRouter } from './foodp'
+export { default as friendRequestRouter } from './friendRequest'
+export { default as userRouter } from './user'
+export { default as friendRouter } from './friend'
+export { default as postRouter } from './post'

@@ -1,0 +1,15 @@
+.goals-background {
+    background-color: var(--primary);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goals-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2rem;
+}
